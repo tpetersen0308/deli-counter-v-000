@@ -15,3 +15,7 @@ def take_a_number(names, name)
   names << name
   puts "Welcome, #{name}. You are number #{names.size} in line."
 end
+
+def now_serving(names)
+  names.size == 0 ? "There is nobody waiting to be served!" : "Currently serving #{names.shift}."
+end

@@ -10,3 +10,9 @@ def line(names)
     puts "The line is currently:#{names.join}"
   end
 end
+
+def take_a_number(names, name)
+  names << name
+  puts "Welcome, #{name}. You are number #{names.size} in line."
+end
+
